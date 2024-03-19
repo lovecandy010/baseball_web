@@ -1,0 +1,220 @@
+<!--반응형 웹 만들기-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c07768d2e0.js" crossorigin="anonymous"></script>
+<script src="js/main.js" defer></script>
+  <title>GOAT</title>
+</head>
+<body>
+  <nav class="navbar" style="justify-content: space-evenly;">
+    <div class="navbar_logo">
+      <a href="test3.html"> 
+        <img src="images/goat_2.png" class="logo_size">
+    </a>
+    </div>
+
+    <ul class="navbar_menu">
+      <li style="padding-right: 20px;"><a href="calendar.php">MYPAGE</a></li>
+      <li style="padding-right: 20px;"><a href="test4-1.html">FOOD</a></li>
+      <li style="padding-right: 20px;"><a href="ticket.php">PHOTO</a></li>
+      <li><a href="guide.html">GUIDE</a></li>
+    </ul>
+
+    <ul class="navbar_links">
+      <li><a href="login.php">log in</a></li>
+      <li><a href="register.php">/Register</a></li>
+    </ul>
+  </nav>
+
+<a href="#" class="navbar_togle">
+  <i class="fa-solid fa-bars"></i>
+</a>
+
+<style>
+    @media (min-width:2000px) {
+        #aaa{
+
+            width:25vw;
+            height: 80vh;
+        }
+        #bbb{
+          width:35vw;
+          height: 90vh;
+        }
+        .container .item{
+          width: 20vw;
+          height: 15vh;
+        }
+        .container .item img{
+          width: 20vw;
+          height: 15vh;
+        }
+    }
+</style>
+
+<div class="main_img" style="max-height: 100%;">
+  <img id="aaa" src="images/goat_main.png" style="padding-top:5%">
+  <img id="bbb" src="images/PNC_Park.png" style="padding-left: 20px;padding-right: 20px;">
+
+  <div class="container" style="max-width: 100%;">
+    <!--현재 26일 기준 nc/삼성/두산/키움/기아-->
+    <div class="item"><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"><img src="uploads/match1.png"></a></div>
+    <div class="item"><a href="https://ticket.ncdinos.com/games/144"><img src="uploads/match2.png"></a></div>
+    <div class="item"><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve"><img src="uploads/match3.png"></a></div>
+    <div class="item"><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve"><img src="uploads/match4.png"></a></div>
+    <div class="item"><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"><img src="uploads/match5.png"></a></div>
+  </div>
+</div>
+
+<div class="main_img2" style="padding-left: 5%;">
+  <img src="images/mobile_main.png" style="width: 90%;">
+  
+
+<!--슬라이더 테스트 2-->
+
+<style>
+    .wrapper {
+  width:100vw;
+  height:118px;
+  border:0px solid black;
+  position: relative;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  height:100%;
+  top:0;
+  left:0;
+  width:3420px;
+  animation: 50s slider linear infinite alternate;
+}
+
+.block {
+  width:1140px;
+  height:118px;
+  border:0px solid black;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+  line-height: 200px;
+}
+
+@keyframes slider {
+  0%{
+    left:0px;
+  }
+  50%{
+    left:-1140px;
+  }
+  100%{
+    left:-2280px;
+  }
+}
+
+.logo_clients {
+  margin: 0;
+  margin-left: 110px;
+}
+</style>
+
+<div class="wrapper">
+    <div class="slider">
+      
+      <div class="block">
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"><img src="uploads/mobile_match1.png" /></a>
+        <a href="https://ticket.ncdinos.com/games/144 "><img src="uploads/mobile_match2.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve"><img src="uploads/mobile_match3.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/673323767?menuIndex=reserve"><img src="uploads/mobile_match4.png" /></a>
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"><img src="uploads/mobile_match5.png" /></a>
+      </div>
+
+      <div class="block">
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"><img src="uploads/mobile_match1.png" /></a>
+        <a href="https://ticket.ncdinos.com/games/144 "><img src="uploads/mobile_match2.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve"><img src="uploads/mobile_match3.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/673323767?menuIndex=reserve"><img src="uploads/mobile_match4.png" /></a>
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"><img src="uploads/mobile_match5.png" /></a>
+      </div>
+
+      <div class="block">
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"><img src="uploads/mobile_match1.png" /></a>
+        <a href="https://ticket.ncdinos.com/games/144 "><img src="uploads/mobile_match2.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve"><img src="uploads/mobile_match3.png" /></a>
+        <a href="https://www.ticketlink.co.kr/reserve/plan/schedule/673323767?menuIndex=reserve"><img src="uploads/mobile_match4.png" /></a>
+        <a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"><img src="uploads/mobile_match5.png" /></a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--슬라이더 테스트
+    <style>
+    #container {
+   overflow:hidden;
+   position:relative;
+   border:20px solid red;
+   width:100px;
+   height:100px;
+}
+.image-box {
+   width:300px; 
+   height:100px;
+   display:flex;
+   flex-wrap:nowrap;
+   animation: bannermove 20s linear infinite;
+}
+@keyframes bannermove {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-50%, 0);
+  }
+}
+    </style>
+
+<div class="container" style="height:200px !important;">
+    <div class="image-box">
+        <div><a href="https://ticket.ncdinos.com/games/144"></a><img src="images/mobile_match1.png" /></a></div>
+        <div><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve "></a><img src="images/mobile_match1.png" /></a></div>
+        <div><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"></a><img src="images/mobile_match1.png" /></a></div>
+        <div><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"></a><img src="images/mobile_match1.png" /></a></div>
+        <div><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/673323767?menuIndex=reserve"></a><img src="images/mobile_match1.png" /></a></div>
+
+        <div class="clone"><a href="https://ticket.ncdinos.com/games/144"></a><img src="images/mobile_match1.png" /></a></div>
+        <div class="clone"><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/109297481?menuIndex=reserve "></a><img src="images/mobile_match1.png" /></a></div>
+        <div class="clone"><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB004"></a><img src="images/mobile_match1.png" /></a></div>
+        <div class="clone"><a href="https://ticket.interpark.com/Contents/Sports/GoodsInfo?SportsCode=07001&TeamCode=PB003"></a><img src="images/mobile_match1.png" /></a></div>
+        <div class="clone"><a href="https://www.ticketlink.co.kr/reserve/plan/schedule/673323767?menuIndex=reserve"></a><img src="images/mobile_match1.png" /></a></div>
+
+
+     </div>
+</div>
+
+-->
+
+<!--
+  <div class="container" style="padding: 0;">
+    <span class="item"><img src="images/mobile_match1.png" style="max-width: 40%;"></span>
+    <span class="item"><img src="images/mobile_match1.png" style="max-width: 40%;"></span>
+    <span class="item"><img src="images/mobile_match1.png" style="max-width: 40%;"></span>
+    <span class="item"><img src="images/mobile_match1.png" style="max-width: 40%;"></span>
+    <span class="item"><img src="images/mobile_match1.png" style="max-width: 40%;"></span>
+  </div>
+-->
+</div>
+
+
+</body>
+</html>
