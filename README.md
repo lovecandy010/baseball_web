@@ -24,7 +24,7 @@
 
 메인 페이지에서 그날 예정된 경기와, 예매 사이트로 연결해주는 링크를 확인할 수 있습니다.
 
-![image](https://github.com/lovecandy010/baseball_web/assets/95009128/72c9cb07-034f-4ec5-a8c8-ed39ee6f61c0)
+![image](https://github.com/lovecandy010/baseball_web/assets/95009128/2a5abae1-8a98-47bb-a7b8-42bd145e8100)
 
 경기장 주변 맛집을 확인 할 수 있습니다.
 각 매장 클릭 시 메뉴 및 가격과 리뷰를 확인할 수 있습니다.
